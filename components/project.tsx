@@ -8,7 +8,7 @@ import Link from "next/link";
 
 type ProjectProps = (typeof projectsData)[number];
 
-export default function Project({ title, description, tags, imageUrl,link}: ProjectProps) {
+export default function Project({ title, description, tags, imageUrl,link, target,}: ProjectProps) {
     const ref =  useRef<HTMLDivElement>(null)
     const { scrollYProgress} = useScroll({
         target: ref,
@@ -17,7 +17,7 @@ export default function Project({ title, description, tags, imageUrl,link}: Proj
     const scaleprogress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
     const opacityprogress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
     return (
-        <Link href={link} target="_blank">
+        <Link href={link} target={target}>
             <motion.div
                 ref={ref}
                 style={{
