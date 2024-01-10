@@ -11,6 +11,7 @@ import locationImg from "@/public/location.png";
 import gsbjavaImg from "@/public/gsbjava.png";
 import gsbphpImg from "@/public/gsbphp.png";
 import mirandaImg from "@/public/miranda.png";
+import nextappImg from "@/public/nextapp.png";
 
 export const links = [
   {
@@ -92,11 +93,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Next.js App",
+    description:
+      "Application de gestion de tâches, affichage d'une liste de boissons en utilisant une api.",
+    tags: ["NextJS", "Prisma", "Tailwind", "DaisyUi",],
+    imageUrl: nextappImg,
+    link:'https://sambanextjsapp.vercel.app/'
+
+
+  },
+  {
     title: "Site web Fischbein",
     description:
       "Refaire le site à partir du site existant avec un nouveau design. Traduction du site en français et gerer le côté responsive pour les différents appareils (ordinateur, tablette, téléphone....).",
     tags: ["Wordpress", "Elementor", "Mysql", "Depicter", "WP mail"],
     imageUrl: fischbeinImg,
+    link:'/'
 
   },
   {
@@ -105,6 +117,7 @@ export const projectsData = [
       "L'application VVA permet aux utilisateurs de parcourir les activités proposeés par VVA et s'inscrire aux activités. L'application permet à un encadrant de créer, modifier et annuler une activité, de lister les inscris à une actvité. Le vacancier peut se désinscrire d'une actvité.",
     tags: ["Php", "Mysql", "Htlm", "Css", "Bootstrap", "MAMP", "PHPSTORM"],
     imageUrl: gactiVvaImg,
+    link:'/'
   },
   {
     title: "Location voiture App",
@@ -112,20 +125,23 @@ export const projectsData = [
       "L'application comporte deux espaces, opérateur et administrateur. L'application permettra donc à l'opérateur d'enregistrer les informations des clients, réserver des véhicules pour eux, tandis que l'administrateur pourra gérer les véhicules, valider les réservations et avoir une vue d'ensemble des opérations.",
     tags: ["Java", "Mysql", "Swing", "MAMP", "INTELLIJ"],
     imageUrl: locationImg,
+    link:'/'
   },
   {
     title: "site web Miranda Service",
     description:
       "La création d'un site vitrine avec HTML/CSS et PHP pour informer les internautes sur l'activité de l'entreprise, présentation des services et produits, ainsi qu'un un formulaire de contact permettant aux clients de contacter l'entreprise.",
-    tags: ["HTML", "CSS", "PHP","VScode"],
+    tags: ["HTML", "CSS", "PHP", "VScode"],
     imageUrl: mirandaImg,
-  },
+    link: '/'
+  }, 
   {
     title: "GSB PHP",
     description:
       "Enregistrer tous les frais engagés, qu'ils soient liés à l'activité principale ou à des activités annexes.L'application est destinée aux visiteurs, délégués et responsables de secteur L'applicaton Exiger une authentification préalable pour accéder à son contenu.",
     tags: ["HTML", "CSS", "PHP","MYSQL"],
     imageUrl: gsbphpImg,
+    link:'/'
   },
   {
     title: "GSB JAVA",
@@ -133,6 +149,7 @@ export const projectsData = [
       "L'objectif de l'application est de centraliser les comptes-rendus de visite et de fournir des informations sur les medicaments et les praticiens du laboratoire. Création d'une structure pour l'application avec une page d'accueil et des pages pour la description des produits et les informations sur les praticiens.",
     tags: ["Java", "Mysql", "Swing", "MAMP", "INTELLIJ"],
     imageUrl: gsbjavaImg,
+    link:'/'
   },
 ] as const;
 
