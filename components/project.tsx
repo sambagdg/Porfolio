@@ -17,7 +17,7 @@ export default function Project({ title, description, tags, imageUrl,link}: Proj
     const scaleprogress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
     const opacityprogress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
     return (
-        <Link href={link}>
+        <Link href={link} target="_blank">
             <motion.div
                 ref={ref}
                 style={{
