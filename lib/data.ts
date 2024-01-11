@@ -96,7 +96,7 @@ export const projectsData = [
     title: "Next.js App",
     description:
       "Application de gestion de tâches, affichage d'une liste de boissons en utilisant une api.",
-    tags: ["NextJS", "Prisma", "Tailwind", "DaisyUi",],
+    tags: ["NextJS", "Prisma", "Tailwind CSS", "DaisyUi", "JavaScript", "NodeJS",],
     imageUrl: nextappImg,
     link:'https://sambanextjsapp.vercel.app/',
     target:'_blank'
@@ -107,7 +107,7 @@ export const projectsData = [
     title: "Site web Fischbein",
     description:
       "Refaire le site à partir du site existant avec un nouveau design. Traduction du site en français et gerer le côté responsive pour les différents appareils (ordinateur, tablette, téléphone....).",
-    tags: ["Wordpress", "Elementor", "Mysql", "Depicter", "WP mail"],
+    tags: ["Wordpress", "Elementor", "Mysql", "Depicter", "Contact form 7"],
     imageUrl: fischbeinImg,
     link:'/',
     target:''
