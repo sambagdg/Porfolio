@@ -17,8 +17,7 @@ export default function Project({ title, description, tags, imageUrl,link, targe
     const scaleprogress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
     const opacityprogress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
     return (
-        <Link href={link} target={target}>
-            <motion.div
+        <motion.div
                 ref={ref}
                 style={{
                     scale: scaleprogress,
@@ -26,6 +25,7 @@ export default function Project({ title, description, tags, imageUrl,link, targe
                 }}
                 className="group mb-5 sm:mb-8 last:mb-0"
             >
+            <Link href={link} target={target}>
                 <section
                     className='mb-5 bg-gray-100 max-w-[55rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem]   hover:bg-gray-200 transition sm:group-even:pl-11 dark:text-white dark:bg-white/10 dark:hover:bg-white/20 dark:border-black/5'
                 >
@@ -53,7 +53,7 @@ export default function Project({ title, description, tags, imageUrl,link, targe
                         group-even:right-[initial] group-even:-left-40' />
 
             </section>
-            </motion.div>
-        </Link>
+            </Link>
+        </motion.div>
     )
 }
