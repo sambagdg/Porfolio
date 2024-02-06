@@ -12,6 +12,7 @@ import gsbjavaImg from "@/public/gsbjava.png";
 import gsbphpImg from "@/public/gsbphp.png";
 import mirandaImg from "@/public/miranda.png";
 import nextappImg from "@/public/nextapp.png";
+import musicSiteImg from "@/public/musicSite.png";
 
 export const links = [
   {
@@ -93,6 +94,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Music Website",
+    description:
+      "Design d'une plateforme de musique 100% responsive",
+    tags: ["Html", "Css", "JavaScript"],
+    imageUrl: musicSiteImg,
+    link:'https://plateforme-music-design.vercel.app/',
+    target:'_blank'
+  },
+  {
     title: "Next.js App",
     description:
       "Application de gestion de tâches, affichage d'une liste de boissons en utilisant une api.",
@@ -100,8 +110,6 @@ export const projectsData = [
     imageUrl: nextappImg,
     link:'https://sambanextjsapp.vercel.app/',
     target:'_blank'
-
-
   },
   {
     title: "Site web Fischbein",
