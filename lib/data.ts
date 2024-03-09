@@ -20,7 +20,7 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "A_propos",
+    name: "A propos",
     hash: "#about",
   },
   {
