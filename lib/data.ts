@@ -13,6 +13,7 @@ import mirandaImg from "@/public/miranda.png";
 import nextappImg from "@/public/nextapp.png";
 import musicSiteImg from "@/public/musicSite.png";
 import chatToPdf from "@/public/chatpdf.png";
+import filmPlateforme from "@/public/filmPlateforme.png";
 
 export const links = [
   {
@@ -93,6 +94,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Film-Plateforme",
+    description:
+      "Ce site est une plateforme de films sur laquelle nous affichons les films récemment sortis en utilisant une API de films.",
+    tags: ["React", "NextJs", "TypeScript", "SASS"],
+    imageUrl: filmPlateforme,
+    link: "https://film-plateforme.vercel.app/",
+    target: "_blank",
+  },
   {
     title: "Chat-To-Pdf-App",
     description:
