@@ -95,6 +95,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Discutez-Avec-Pdf-App",
+    description:
+      "Cet applcation permet de télécharger des fichier pdf et de poser des questions dont une IA, résumera le contenu et répondra à toutes vos questions. Idéal pour tous, Discutez avec Votre PDF",
+    tags: ["React", "NextJs", "TypeScript", "Tailwind", "Clerk", "Shadcn"],
+    imageUrl: chatToPdf,
+    link: "https://discutez-avec-pdf.vercel.app/",
+    target: "_blank",
+  },
+  {
     title: "Film-Plateforme",
     description:
       "Ce site est une plateforme de films sur laquelle nous affichons les films récemment sortis en utilisant une API de films.",
@@ -103,15 +112,7 @@ export const projectsData = [
     link: "https://film-plateforme.vercel.app/",
     target: "_blank",
   },
-  {
-    title: "Chat-To-Pdf-App",
-    description:
-      "Cet applcation permet de télécharger des fichier pdf et de poser des questions dont une IA, résumera le contenu et répondra à toutes vos questions. Idéal pour tous, Discutez avec Votre PDF",
-    tags: ["React", "NextJs", "TypeScript", "Tailwind", "Clerk", "Shadcn"],
-    imageUrl: chatToPdf,
-    link: "https://chat-to-pdf-app.vercel.app/",
-    target: "_blank",
-  },
+
   {
     title: "Music Website",
     description: "Design d'une plateforme de musique 100% responsive",
