@@ -104,7 +104,7 @@ export const projectsData = [
     target: "_blank",
   },
   {
-    title: "Film-Plateforme",
+    title: "Film-Plateforme-Design",
     description:
       "Ce site est une plateforme de films sur laquelle nous affichons les films récemment sortis en utilisant une API de films.",
     tags: ["React", "NextJs", "TypeScript", "SASS"],
