@@ -3,15 +3,15 @@ import { CgWebsite } from "react-icons/cg";
 import { RiComputerFill } from "react-icons/ri";
 import { BsWordpress } from "react-icons/bs";
 import { FaUserGraduate } from "react-icons/fa";
-
 import fischbeinImg from "@/public/fischbein.png";
 import gactiVvaImg from "@/public/gacti.png";
 import locationImg from "@/public/location.png";
 import gsbjavaImg from "@/public/gsbjava.png";
 import gsbphpImg from "@/public/gsbphp.png";
 import mirandaImg from "@/public/miranda.png";
-import nextappImg from "@/public/nextapp.png";
+// import nextappImg from "@/public/nextapp.png";
 import musicSiteImg from "@/public/musicSite.png";
+import weatherApp from "@/public/weatherApp.png";
 import chatToPdf from "@/public/chatpdf.png";
 import filmPlateforme from "@/public/filmPlateforme.png";
 
@@ -110,6 +110,16 @@ export const projectsData = [
     tags: ["React", "NextJs", "TypeScript", "SASS"],
     imageUrl: filmPlateforme,
     link: "https://film-plateforme.vercel.app/",
+    target: "_blank",
+  },
+
+  {
+    title: "Meteo-App",
+    description:
+      "Cette application permet de rechercher la météo d'une ville en utilisant une API de météo.",
+    tags: ["Html", "Css", "JavaScript"],
+    imageUrl: weatherApp,
+    link: "https://meteo-app-five.vercel.app/",
     target: "_blank",
   },
 
