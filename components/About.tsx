@@ -15,18 +15,18 @@ export default function About() {
             id='about'
         >
             <SectionHeading>A propos de moi</SectionHeading>
-            <p className="mb-3 ">
+            <p className="mb-3">
                 Aprés l'obtention de mon {" "}
                 <span className="font-medium">BTS SIO(slam)</span>, j'ai decider de poursuivre ma
-                passion pour la programmation. Actuellement je me suis inscrit en 3éme année de bachelor en ingénierie du web à l'ESGI afin de grandir en tant que{" "}
-                <span className="font-medium">développeur full-stack</span>.{" "}
+                passion pour la programmation. Actuellement je fais une formation TP CDA(Concepteur développeur d'appplications) bac+3/4 au Greta des Hauts-de-seine afin de grandir en tant que{" "}
+                <span className="font-medium">développeur d'applications</span>.{" "}
                 <span className="italic">Ce que je préfère dans la programmation</span> c'est l'aspect de résolution de problèmes. J'<span className="">aime</span> le sentiment de trouver enfin une solution à un problème. Ma pile principale est
                 {" "}
                 <span className="font-medium">
-                    Php, React, Next.js, Vuejs, Node.js, Bootstrap, Tailwind-Css, Mysql et MongoDB
+                    Php, Java, Spring, Spring Boot, JavaScript, React, Angular, Mysql et MongoDB, Git, Docker
                 </span>
-                . Je connais également TypeScript, Java, Python et C#. Je cherche toujours à apprendre de nouvelles technologies. Je suis actuellement à la recherche d'une{" "}
-                <span className="font-medium">alternance rythme 3 samaines en entreprise/ 1 semaine en formation</span> en tant que développeur web.
+                . Je connais également TypeScript,Python et C# Tailwind CSS, Vagrant, . Je cherche toujours à apprendre de nouvelles technologies. Je suis actuellement à la recherche d'un{" "}
+                <span className="font-medium">d'un stage à partir du 10 Mars jusqu'au 23 Mai 2025</span> en tant que développeur d'applications.
             </p>
 
             <p>

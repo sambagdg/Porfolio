@@ -44,12 +44,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Bachelor 3éme année(Ingénierie du web)",
-    location: "ESGI: Paris, France",
+    title: "TP CDA: Concepteur Développeur d'Applications",
+    location: "Greta des Hauts-de-seine: Colombes, France",
     description:
-      "Le Bachelor en Ingénierie du Web en troisième année est une formation avancée axée sur la conception, le développement et la gestion de solutions web complexes. Les étudiants acquièrent des compétences approfondies en programmation, en développement web, en gestion de projets numériques, ainsi qu'en conception d'interfaces utilisateur et d'expériences utilisateur (UI/UX).",
+      "La formation TP CDA (Titre Professionnel de Concepteur Développeur d’Applications) est une formation professionnelle reconnue par l’État, qui prépare les apprenants à concevoir, développer et maintenir des applications informatiques en réponse à des besoins spécifiques des entreprises. Ce titre est classé au niveau 6 du RNCP (équivalent à Bac+3/Bac+4).",
     icon: React.createElement(FaUserGraduate),
-    date: "2023 - 2024",
+    date: "2024 - 2025",
   },
   {
     title: "BTS SIO (SLAM): Admis",
