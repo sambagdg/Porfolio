@@ -23,9 +23,9 @@ export default function About() {
                 <span className="italic">Ce que je préfère dans la programmation</span> c'est l'aspect de résolution de problèmes. J'<span className="">aime</span> le sentiment de trouver enfin une solution à un problème. Ma pile principale est
                 {" "}
                 <span className="font-medium">
-                    Php, Java, Spring, Spring Boot, JavaScript, React, Angular, Mysql et MongoDB, Git, Docker
+                    Php, Java, Spring, Spring Boot, JavaScript, React, Angular, Mysql et MongoDB, Git et Docker
                 </span>
-                . Je connais également TypeScript,Python et C# Tailwind CSS, Vagrant, . Je cherche toujours à apprendre de nouvelles technologies. Je suis actuellement à la recherche d'un{" "}
+                . Je connais également le TypeScript,Python, C#, Tailwind CSS et Vagrant. Je cherche toujours à apprendre de nouvelles technologies. Je suis actuellement à la recherche d'un{" "}
                 <span className="font-medium">d'un stage à partir du 10 Mars jusqu'au 23 Mai 2025</span> en tant que développeur d'applications.
             </p>
 
